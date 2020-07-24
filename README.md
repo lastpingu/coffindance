@@ -14,4 +14,4 @@ shell ortamında arayüz gelecektir **0** ile çıkış yapabilirsiniz yada ekra
 programı açtığınızda önce 1 i seçip bir hedef belirleyip sonra istediğiniz tarama modunda
 tarana yapabilirsiniz.
 
-> NOT: termuxta ve bazı distrolarda çalışmayabilir.
+> NOT: **termuxta ve bazı distrolarda çalışmayabilir.**
