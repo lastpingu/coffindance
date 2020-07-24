@@ -12,5 +12,5 @@ kullanımı oldukça kolaydır nmap için Türkçe arayüz `sudo ./coffindance.b
 shell ortamında arayüz gelecektir **0** ile çıkış yapabilirsiniz yada ekran çok doldu derseniz
 **c** yi kullanabilirsiniz. Tarama yapmak için öncelikle bir hedef belirlemelisiniz bunun için
 programı açtığınızda önce 1 i seçip bir hedef belirleyip sonra istediğiniz tarama modunda
-tarana yapabilirsiniz.
-NOT: termuxta ve bazı shellerde çalışmayabilir.
+tarana yapabilirsiniz. \n
+NOT: termuxta ve bazı distrolarda çalışmayabilir.
