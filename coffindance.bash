@@ -17,8 +17,8 @@
     end='\033[0m'
 #
 
-if [[ $1 = help ]] ; then
-    echo "1"
+if [[ $1 =~ ^(-h|help|-y|--yardım) ]] ; then
+    echo "yaqında"
 fi
 
 if [[ $USER == root ]] ; then
@@ -28,8 +28,20 @@ if [[ $USER == root ]] ; then
     exit 1
 fi
 
+# nmap çek ve install
+nmapcheck=$(nmap --version | awk 'NR==1{print $1}')
+if [[ $nmapcheck = "Nmap" ]] ; then
+    echo -e "${yesil}nmap bulundu!$end \('-'\)"
+else
+    echo -e "${kirmizi}Nmap bulunamadı!$end nmap kuruluyor.."
+    apt update && apt install -y nmap
+    clear
+    echo "Script'i tekrar başlat! (;-;)"
+    exit 0
+fi
+
+echo "-------------------------"
 echo -e "$kirmizi Coffin Dance V0.1$end (Beta)"
-sleep 0.2 # gereksiz sleep xd
 
 while :; do
 if [[ $target = "" ]] ; then
