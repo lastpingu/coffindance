@@ -13,3 +13,4 @@ shell ortamında arayüz gelecektir **0** ile çıkış yapabilirsiniz yada ekra
 **c** yi kullanabilirsiniz. Tarama yapmak için öncelikle bir hedef belirlemelisiniz bunun için
 programı açtığınızda önce 1 i seçip bir hedef belirleyip sonra istediğiniz tarama modunda
 tarana yapabilirsiniz.
+NOT: termuxta ve bazı shellerde çalışmayabilir.
